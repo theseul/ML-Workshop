@@ -40,7 +40,7 @@ with tab2:
     st.dataframe(evaluations)
     
     x = evaluations.columns
-    #fig = px.Figure(data=[
+    fig = px.Figure(data=[
         px.Bar(name = 'Decision Tree',
                x = x,
                y = evaluations.loc['Decision Tress']),
