@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 import pickle
-#import plotly.graph_objects as px
+import plotly.graph_objects as px
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 import streamlit as st
