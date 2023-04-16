@@ -2,11 +2,11 @@
 import numpy as np
 import pandas as pd
 import pickle
-import plotly.graph_objects as px
+#import plotly.graph_objects as px
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 import streamlit as st
-st.title('My ML Workshop')
+st.title('Penguin Species Prediction')
 tab1, tab2, tab3 = st.tabs(["Penguin Prediction", "Evaluation", "About"])
 with tab1:
     model = pickle.load(open('model.penguins.sav','rb'))
